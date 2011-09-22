@@ -1,12 +1,6 @@
-(function ($) {
-
-  Drupal.behaviors.exampleModule = {
-    attach: function (context, settings) {
-      $('select').each(function () {
-        $(this).addClass('chzn-select');
-      });
-      $(".chzn-select").chosen();
-    }
-  };
-
-}(jQuery));
+Drupal.behaviors.tp_evidence = function (context) {
+  jq141('select').each(function () {
+    jq141(this).addClass('chzn-select');
+  });
+  jq141(".chzn-select").chosen();
+};

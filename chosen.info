@@ -1,6 +1,5 @@
-core = "7.x"
+core = "6.x"
 description = "Enable fancy select boxes. See <a href='http://harvesthq.github.com/chosen/'>website</a>"
 name = "Chosen"
 project = "chosen"
 version = "0.1"
-files[] = chosen.module
